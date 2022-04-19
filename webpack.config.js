@@ -14,7 +14,8 @@ const config = {
   },
   output: {
     filename: '[name].bundle.js',
-    path: `${__dirname}/dist`
+    path: `${__dirname}/dist`,
+    publ
   },
   module: {
     rules: [
